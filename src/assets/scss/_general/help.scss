@@ -1,0 +1,38 @@
+// help Page
+
+.help-holder {
+
+	.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+		border-radius: 50px;
+		padding: 0px 25px;
+	}
+
+	.help__accordion {
+		border-radius: 8px;
+
+		.v-icon.v-icon {
+			color: $primary1 !important;
+			font-size: 16px;
+		}
+
+		.v-expansion-panel-content {
+			font-weight: normal;
+			font-size: .9em;
+			color: $black;
+
+			p {
+				font-size: .9em;
+				font-weight: normal;
+			}
+
+			li {
+				font-size: .9em;
+				font-weight: normal;
+			}
+		}
+	}
+
+	.v-expansion-panel--active .v-expansion-panel-header {
+		color: $primary1;
+	}
+}

@@ -1,0 +1,13 @@
+
+.login-holder {
+	
+	.signup-link {
+		color: $primary1 !important;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+		border-color: $primary1 !important;
+	}
+}

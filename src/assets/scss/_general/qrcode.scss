@@ -1,0 +1,30 @@
+.qrcode-holder {
+	width: 100%;
+	height: 80vh;
+	position: fixed;
+	top: 0;
+}
+
+.qrcode-bg {
+	background: transparent !important;
+}
+
+.qrcode-container {
+	width: 100%;
+	height: 80vh;
+	position: relative;
+
+	.frm-title {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		right: 0;
+	}
+}
+
+.qrcode {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-color: $primary2;
+}

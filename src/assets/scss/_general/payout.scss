@@ -1,0 +1,16 @@
+.transaction__historyTable {
+	border-bottom: 1px solid #e3e3e3;
+
+	.status {
+
+		&.pending {
+			color: orange;
+			font-style: italic;
+		}
+
+		&.approved {
+			color: $primary1;
+		}
+	}
+}
+

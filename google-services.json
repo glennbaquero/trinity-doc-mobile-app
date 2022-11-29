@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172278320939",
+    "firebase_url": "https://trinity-doc.firebaseio.com",
+    "project_id": "trinity-doc",
+    "storage_bucket": "trinity-doc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172278320939:android:05d12c77243843a2dd7f6e",
+        "android_client_info": {
+          "package_name": "com.praxxys.trinitydoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172278320939-mm1e9d2opt9avd1drqn2l15u600900p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOpVbk1V34CHPS_OSvS8zuuJ9DFdc482I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172278320939-mm1e9d2opt9avd1drqn2l15u600900p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

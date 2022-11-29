@@ -1,0 +1,192 @@
+.reward-holder {
+
+	.reward-card {
+		border-radius: 15px;
+	}
+
+	.reward-col {
+		height: 75px;
+	}
+
+	.v-tabs--grow .v-tab {
+		font-size: .8em;
+		font-weight: bold;
+	}
+
+	.v-tabs-slider {
+	    width: 60% !important;
+	    margin: auto !important;
+	}
+
+	.v-tabs-slider-wrapper {
+	    height: 3px !important;
+	}
+
+	.theme--light.v-tabs .v-tab--active:hover::before, .theme--light.v-tabs .v-tab--active::before {
+		opacity: 0;
+	}
+
+	.ticket-card {
+		border-radius: 10px;
+
+		.ticket-title {
+			font-size: 1.5em !important;
+			font-family: $main-font !important;
+			white-space: normal !important;
+			-webkit-line-clamp: 2;
+    		-webkit-box-orient: vertical;
+    		overflow: hidden;
+    		max-width: 230px;
+    		display: -webkit-box !important;
+    		max-height: 50px;
+		}
+
+		.ticket-title2 {
+			font-size: 1.2em !important;
+			font-family: $main-font !important;
+			white-space: normal !important;
+			-webkit-line-clamp: 2;
+    		-webkit-box-orient: vertical;
+    		overflow: hidden;
+    		max-width: 230px;
+    		display: -webkit-box !important;
+    		max-height: 50px;	
+		}
+
+		.ticket-desc {
+			font-family: $main-font !important;
+			white-space: normal !important;
+			-webkit-line-clamp: 2;
+    		-webkit-box-orient: vertical;
+    		overflow: hidden;
+    		max-width: 230px;
+    		display: -webkit-box !important;
+    		max-height: 32px;
+		}
+
+		.ticket-date {
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 60%;
+			overflow: hidden;
+		}	
+	}
+
+	.border-dots {
+		border-left: dotted 10px #dedada;
+	    margin-left: -5px;
+	    z-index: 2;
+	}
+
+	.ticket {
+		background-color: #fafafa !important;
+	}
+
+  	.curve {
+	    position: absolute;
+	    width: 35px;
+	    height: 35px;
+	    border-radius: 50%;
+	    background-color: #fafafa;
+	    z-index: 2;
+		
+		&.top-left {
+			top: -4px;
+    		left: -4px;
+		    border-top-left-radius: 0 !important;
+		    border-top-right-radius: 0px !important;
+		    border-bottom-left-radius: 0px !important;
+		    border-bottom-right-radius: 50px !important;
+		    border-bottom: solid 1px #e3e3e3;
+    		border-right: solid 1px #e3e3e3;
+		}
+
+		&.top-right {
+			top: -2px;
+			right: -2px;
+			border-top-left-radius: 0 !important;
+		    border-top-right-radius: 0px !important;
+		    border-bottom-left-radius: 50px !important;
+		    border-bottom-right-radius: 0px !important;
+		    border-left: 1px solid #e3e3e3 !important;
+    		border-bottom: 1px solid #e3e3e3 !important;
+		}
+
+		&.bot-left {
+			bottom: -4px;
+			left: -4px;
+			border-top-left-radius: 0 !important;
+		    border-top-right-radius: 50px !important;
+		    border-bottom-left-radius: 0px !important;
+		    border-bottom-right-radius: 0px !important;
+		    border-top: solid 1px #e3e3e3;
+    		border-right: solid 1px #e3e3e3;
+		}
+
+		&.bot-right {
+			bottom: -4px;
+			right: -4px;
+			border-top-left-radius: 50px !important;
+		    border-top-right-radius: 0px !important;
+		    border-bottom-left-radius: 0px !important;
+		    border-bottom-right-radius: 0px !important;
+		    border-top: 1px solid #e3e3e3;
+    		border-left: 1px solid #e3e3e3;
+		}
+    }
+}
+
+.selected-rewards {
+
+	.rewards-title {
+		font-size: 1.5em;
+		line-height: 25px;
+		font-family: $main-font;
+	}
+}
+
+.reward-tab {
+	.v-tab--active {
+	    color: black !important;
+	}
+}
+
+.reward-modal {
+	border-radius: 15px !important;
+	// height: 500px !important;
+
+	.reward-icon {
+		border-radius: 50%;
+	}
+
+	.frm-desc {
+		p {
+			width: 80%;
+		}
+	}
+
+	.v-input--selection-controls .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
+		background: transparent !important;
+	}
+
+	.v-application .accent--text {
+		color: $primary2 !important;
+	}
+
+	.theme--light.v-icon {
+		color: $primary2;
+	}
+}
+.filter-view {
+	
+	.filter-header {
+
+		i {
+			font-size: 32px;
+		}
+	}
+
+	.v-input--selection-controls .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
+		background: transparent !important;
+	}
+}

@@ -1,0 +1,53 @@
+.notif-holder {
+
+	.notif-desc {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 54vw;
+		font-size: .9em;
+		max-height: 21px;
+	}
+
+	.notif-card {
+		position: relative;
+		
+		.notif-col {
+			height: 75px;
+
+			p {
+				color: $gray;
+			}
+		}
+
+		.notif-name {
+			text-overflow: ellipsis;
+	    	overflow: hidden;
+	    	height: 20px;
+	    	width: 54vw;
+	    	white-space: nowrap;
+		}
+
+		&.notif-unread {
+			
+			.notif-name {
+				color: $primary2;
+			}
+
+			.notif-desc {
+				color: $black;
+			}
+
+			.notif-dot {
+				position: absolute;
+				right: 30px;
+				top: 30px;
+				bottom: auto;
+				width: 10px;
+				height: 10px;
+				background-color: #DA8924;
+				border-radius: 50%;
+			}
+		}
+	}
+}

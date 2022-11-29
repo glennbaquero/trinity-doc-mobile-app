@@ -1,0 +1,179 @@
+
+.modules-holder {
+
+	.fa-search:before {
+		color: $primary2;
+	}
+
+	.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+		border-radius: 50px;
+		padding: 0px 25px;
+	}
+
+	.module-card {
+		border-radius: 10px;
+		
+		.v-list--two-line .v-list-item .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list--two-line .v-list-item .v-list-item__icon, .v-list--three-line .v-list-item .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list--three-line .v-list-item .v-list-item__icon, .v-list-item--two-line .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list-item--two-line .v-list-item__icon, .v-list-item--three-line .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list-item--three-line .v-list-item__icon {
+		    border-radius: 10px 0 0 10px;
+		}
+
+		.module-title {
+			font-size: 1.2em !important;
+			font-family: $main-font !important;
+			white-space: normal !important;
+			-webkit-line-clamp: 2;
+    		-webkit-box-orient: vertical;
+    		overflow: hidden;
+    		max-width: 230px;
+    		display: -webkit-box !important;
+    		max-height: 40px;
+		}
+
+		.module-desc {
+			font-family: $main-font !important;
+			white-space: normal !important;
+			-webkit-line-clamp: 2;
+    		-webkit-box-orient: vertical;
+    		overflow: hidden;
+    		max-width: 230px;
+    		display: -webkit-box !important;
+    		max-height: 28px;
+		}	
+	}
+}
+
+.selected-module {
+
+	.article-img {
+		object-fit: contain !important;
+	}
+
+	.article-title {
+		font-size: 1.2em;
+		font-family: $main-font;
+		line-height: 25px;
+	}
+
+	.article-btn {
+		position: fixed;
+		bottom: 22px;
+		z-index: 9;
+		width: 90%;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 55px !important;
+		font-weight: bold !important;
+		color: $white !important;
+		border-radius: 50px;
+		background-color: $primary1 !important;
+	}
+
+	.module-card {
+		border-radius: 10px;
+		
+		.v-list--two-line .v-list-item .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list--two-line .v-list-item .v-list-item__icon, .v-list--three-line .v-list-item .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list--three-line .v-list-item .v-list-item__icon, .v-list-item--two-line .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list-item--two-line .v-list-item__icon, .v-list-item--three-line .v-list-item__avatar:not(.v-list-item__avatar--horizontal), .v-list-item--three-line .v-list-item__icon {
+		    border-radius: 10px 0 0 10px;
+		}
+	}
+}
+
+.module-modal {
+	border-radius: 15px !important;
+	// height: 160px !important;
+
+	.frm-desc {
+		
+		p {
+			line-height: 20px;
+		}
+	}
+
+	.v-input--selection-controls .v-input--selection-controls__input:hover .v-input--selection-controls__ripple:before {
+		background: transparent !important;
+	}
+}
+
+
+// Comment Card
+
+.comment-card {
+	position: relative;
+	width: 100%;
+
+	.comment-img {
+		border-radius: 50% !important;
+		border: solid 1px $primary1;
+	}
+
+	.card-dots {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		color: gray;
+	}
+
+	.comment-card-name {
+		font-size: 1.1em;
+	}
+
+	small {
+		color: gray;
+	}
+
+	.reply-link {
+		color: $primary1 !important;
+		text-decoration: none !important;
+	}
+}
+
+.reply-card {
+	background-color: #efefef !important;
+	position: relative;
+
+	.reply-img {
+		border-radius: 50% !important;
+		border: solid 1px $primary1;
+	}
+
+	.card-dots {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		color: gray;
+	}
+}
+
+.comment-textfield {
+	background-color: $white;
+	position: fixed;
+	bottom: 70px;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+
+	input {
+		height: 16px;
+	}
+
+	.custom-btn {
+
+		i {
+			font-size: 1.2em;
+			color: $primary1;
+		}
+	}
+
+	.v-input__control {
+		height: 45px;
+	}
+
+	.v-text-field--filled > .v-input__control > .v-input__slot, .v-text-field--full-width > .v-input__control > .v-input__slot, .v-text-field--outlined > .v-input__control > .v-input__slot {
+		min-height: 45px;
+	}
+
+	.v-btn:not(.v-btn--round).v-size--default {
+		min-width: 90%;
+		height: 45px;
+	}
+
+}

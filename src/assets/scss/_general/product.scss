@@ -1,0 +1,125 @@
+.product-holder {
+
+	.fa-search:before {
+		color: $primary2;
+	}
+
+	.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+		border-radius: 50px;
+		padding: 0px 25px;
+	}
+
+	.v-card > *:first-child:not(.v-btn):not(.v-chip), .v-card > .v-card__progress + *:not(.v-btn):not(.v-chip) {
+		border-top-left-radius: 0 !important;
+    	border-top-right-radius: 0 !important;
+	}
+}
+
+.products-holder {
+
+	.products-card__holder:nth-child(2n) {
+
+		.products-card {
+			margin-right: 0 !important;
+			margin-left: auto !important;
+		}
+	}	
+}
+
+.products-card {
+	border-radius: 20px !important;
+	position: relative;
+
+	.product-label {
+		width: 70px;
+		height: 30px;
+		position: absolute;
+		top: 30px;
+		left: -15px;
+		border-top-right-radius: 5px !important;
+		border-bottom-right-radius: 5px !important;
+		border-bottom-left-radius: 5px !important;
+		z-index: 4;
+
+		.product-label-inner {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			border-radius: 0 5px 5px 5px !important;
+			// border-bottom-right-radius: 5px !important;
+			// border-bottom-left-radius: 5px !important;
+			background-color: #DA8924;
+
+			&:before {
+			    content: "";
+				width: 15px;
+			    top: -3px;
+			    left: 0px;
+			    height: 10px;
+			    position: absolute;
+			    // background-color: #0f3512;
+			    background: linear-gradient(to right, #09290B 0%, #FBC021 100%);
+			    -webkit-transform: skewY(-19deg);
+			    transform: skewY(-19deg);
+			    z-index: -1;
+			}
+		}
+	}
+
+	.product-car-inner-holder {
+
+	}
+
+	.product-card-img {
+
+	}
+
+	.product-card-name {
+		text-align: center;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 90%;
+		margin: auto;
+		font-size: .9em;
+	}
+
+	.custom-btn {
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.filter-list {
+	top: 231px !important;
+	border-bottom-left-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+
+	.v-list-item {
+		min-height: 35px !important;
+	}
+	
+}
+
+.selected-points {
+	width: 75px;
+	height: 30px;
+	border-radius: 5px;
+	margin-right: 0;
+	margin-left: auto;
+	background-color: $primary2;
+}
+
+
+.menu--holder {
+	background-color: $primary5 !important;
+}
+
+.drop--menu {
+	background-color: $primary5;
+
+	.v-list-item__title {
+		color: $white;
+		font-weight: bold;
+	}
+}

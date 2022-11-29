@@ -1,0 +1,325 @@
+/*=================================================================================
+|                               Chat Page                                        |
+=================================================================================*/
+
+
+.chat__pageCon {
+	position: fixed;
+	border-bottom: 0;
+	box-shadow: none;
+	z-index: 99 !important;
+
+	&.chat__details {
+		.chat__convoHolder {
+			height: 75vh;
+		}
+
+		.chat__detailsFooter {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: $primary1;
+
+			.chat__detailsInner {
+				width: 70%;
+				margin: auto;
+			}
+		}
+	}
+
+	.chat__headerCon {
+		box-shadow: none;
+
+		.v-toolbar {
+			box-shadow: none;
+		}
+
+		.v-btn--outlined .v-btn__content .v-icon, .v-btn--round .v-btn__content .v-icon {
+			color: #000000;
+		}
+
+		.v-toolbar__title {
+			max-width: 170px;
+		}
+
+		.chat__profileImg {
+			border-radius: 50%;
+			border: solid 2px $primary1;
+		}
+
+		.v-btn--fab.v-size--default .v-icon {
+			height: 18px;
+			font-size: 18px;
+			width: 18px;
+		}
+
+		.call--icon {
+			position: absolute;
+			right: 20px;
+		}
+		
+		.video--icon {
+			position: absolute;
+			right: 70px;
+		}
+
+		.chat__nameHolder {
+			a {
+				display: block;
+				color: #000;
+			}
+		}
+	}
+
+
+	.chat__timeHolder {
+		width: 100%;
+		background-color: $primary1;
+		// @extend %gradient-left-right;
+	}
+
+	.chat__disclaimerHolder {
+		width: 100%;
+		position: relative;
+		background-color: $primary1;
+
+		.close--dialog {
+			color: $white !important;
+		}
+
+		.disclaimer--title {
+			width: 100%;
+			display: block;
+		}
+
+		.chat__disclaimerContent {
+			width: 85%;
+			margin: auto;
+		}
+
+
+		&.hide {
+			display: none;
+		}
+	}
+
+	.chat__cardHolder {
+
+		small {
+			font-style: italic;	
+		}
+
+		.v-btn:not(.v-btn--round).v-size--default {
+			height: 30px;
+		}
+	} 
+
+	.chat__convoHolder {
+		height: 65vh;
+		overflow-y: auto;
+
+		.chat__profileImg {
+			border-radius: 50%;
+			border: solid 2px $primary1;
+		}
+
+		.receiver__contentHolder {
+			width: 70%;
+			background-color: $white;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			border-bottom-right-radius: 20px;
+
+			.receiver__content {
+				width: 80%;
+				margin: auto;
+			} 
+		}
+
+		.sender__contentHolder {
+			width: 70%;
+			margin-right: 0;
+			margin-left: auto;
+			background-color: $lightest-gray;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+
+			.sender__content {
+				width: 80%;
+				margin: auto;
+
+				small {
+					display: block;
+					margin-bottom: 10px;
+				}
+			} 
+		}	
+	}
+
+	.chat__textHolder {
+		width: 100%;
+		background-color: $lighter-gray;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		padding: 10px 0px;
+
+		.chat__textInner {
+			width: 90%;
+			margin: auto;
+			display: flex;
+		}
+
+		.chat__border {
+			width: 85%;
+			border-radius: 30px;
+			overflow: hidden;
+			background-color: $white;
+			position: relative;
+
+			.v-icon {
+				position: absolute;
+				right: 20px;
+				top: 0;
+				bottom: 0;
+			}
+		}
+
+		.text__input {
+			border: 0;
+			border-radius: 20px;
+			width: 85%;
+			box-shadow: none;
+
+			.v-input__slot {
+				border: 0 !important;
+				border-radius: 20px;
+				margin-bottom: 0;
+				box-shadow: none !important;
+
+				.v-label {
+					font-weight: normal;
+				}
+			}
+		}
+
+		.v-text-field.v-text-field--enclosed .v-text-field__details {
+			display: none;
+		}
+
+		.send__holder {
+			border-radius: 50%;
+			width: 45px;
+			height: 45px;
+			margin-left: 20px;
+			cursor: pointer;
+			position: relative;
+			background-color: $white;
+
+			.v-icon {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				font-size: 18px;
+				right: 0;
+				left: 0;
+			}
+		}
+	}
+
+	&.prescription__Holder {
+		background-color: $lightest-gray !important; 
+	}
+
+	.prescription__Con {
+		background-color: $white;
+		padding-bottom: 50px;
+		margin-bottom: 100px;
+
+	}
+
+	.prescription__button {
+		position: absolute;
+		bottom: 80px;
+		right: 20px;
+		height: 30px;
+		min-width: 50px;
+	}
+
+	.end__conButton {
+		position: absolute;
+		bottom: 80px;
+		left: 20px;
+		height: 30px;
+		min-width: 50px;	
+	}
+
+	.prescription__divider {
+		width: 100%;
+		height: 2px;
+		margin-top: 15px;
+		background-color: $lighter-gray;
+	}
+
+	.presc__drNameHolder {
+		width: 30%;
+		margin-left: auto;
+		margin-right: 0;
+
+		small {
+			display: block;
+		}
+	}
+
+
+}
+
+.call__buttonHolder {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999 !important;
+	background: transparent;
+}
+
+
+
+.prescription__table {
+	
+	.prescription__header {
+		border-top: 1px solid #e3e3e3;
+	}
+
+	.prescription__tableContent	{
+		border-bottom: 1px solid #e3e3e3;
+	}
+}
+
+.date__prescriptionHolder {
+
+	.v-input__prepend-outer {
+		position: absolute;
+		right: 15px;
+	}
+}
+
+.videoHolder {
+	width: 100%;
+	height: 33vh;
+	background-color: black; 
+}
+
+.vld-overlay {
+	height: 47%;
+	align-items: normal;
+}
+
+@media screen and (max-width: 360px) {
+	#app svg {
+	    width: 130px!important;
+	    height: 380px!important;
+	}
+}

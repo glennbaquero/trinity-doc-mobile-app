@@ -1,0 +1,103 @@
+header {
+	.profile {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		border: solid 3px $primary5 !important;
+		box-shadow: 0px 1px 3px #00000029 !important;
+		@extend %bg-center-contain-nr;
+	}
+
+	.notif-holder {
+		width: 100%;
+		height: 40px;
+
+		i {
+			font-size: 26px;
+			vertical-align: sub;
+		}
+
+		.notif {
+			width: 40px;
+			height: 40px;
+			margin-left: auto;
+
+			p {
+				display: none;
+			}
+
+			&.active {
+				color: green !important;
+				position: relative !important;
+
+				.notif-number {
+					position: absolute;
+					width: 20px;
+					height: 20px;
+					text-align: center;
+					background-color: #AF2724;
+					bottom: 10px;
+					right: -8px;
+					border-radius: 50%;
+
+					p {
+						font-size: .5em;
+						color: $white;
+						font-weight: bold;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	.v-toolbar__content .v-btn.v-btn--icon, .v-toolbar__extension .v-btn.v-btn--icon {
+		height: 100%;
+	}
+}
+
+.hdr-menu {
+	color: #FBC021;
+	font-size: 25px;
+	text-align: right;
+	vertical-align: sub;
+}
+
+.hdr-menu__holder {
+	width: 80% !important;
+	height: 100vh !important;
+	overflow-y: hidden !important;
+	position: fixed !important;
+
+	.hdr-menu__link {
+		font-size: 1em !important;
+		font-family: $main-font;
+	}
+
+	.hdr-menu__icon {
+		width: 30px;
+		height: 30px;
+		@extend %bg-center-contain-nr;
+	}
+}
+
+.top-nav {
+	box-shadow: 0px 3px 6px #70707029 !important;
+
+	&.hide {
+		display: none !important;
+	}
+}
+
+.hdr-back {
+	font-size: 28px;
+	color: $black;
+}
+
+.hdr--link {
+	text-decoration: none;
+}
+
+// .hdr-bg__prfl {
+// 	background: $primary5 !important;
+// }

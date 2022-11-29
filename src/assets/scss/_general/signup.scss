@@ -1,0 +1,32 @@
+.signup-holder {
+
+	.signup-link {
+		color: $primary1 !important;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+		border-color: $primary1 !important;
+	}
+
+}
+
+.privacy-text {
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+  	-webkit-line-clamp: 4;
+  	overflow: hidden;
+	line-height: 15px;
+}
+
+.privacy-modal{
+
+	.frm-desc small a {
+		color: $primary1;
+	}
+
+	// .custom-btn {
+	// 	width: 100%;
+	// }
+}
